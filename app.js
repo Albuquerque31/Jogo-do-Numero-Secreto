@@ -27,7 +27,7 @@ exibirFraseIncial();
 function verificarChute() {     // Mas o que é uma função? Independente da linguagem de programação, sempre que pensamos em uma função, pensamos em um trecho de código que executa uma ação ou tem alguma responsabilidade.
     let chute = document.querySelector('input').value;// para pegar o valor de um campo de de input temos que usar .value do paramentro.
     console.log(numeroSecreto == chute);
-    let palavraTentativas = tentativas > 1? 'tentaivas':'tentativa';
+    let palavraTentativas = tentativas > 1? 'tentativas':'tentativa';
     let mensagemTentativas = `Laura, você é incrivel, acertou o numero com ${tentativas} ${palavraTentativas} !!!!`;
     document.getElementById('reiniciar').removeAttribute('disabled');
 
